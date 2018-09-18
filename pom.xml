@@ -14,8 +14,7 @@
           <module>unusual-spending</module>
           <module>example-cucumber</module>
           <module>bank-ocr</module>
-          <module>selenium</module>
-          <module>gilded-rose</module>
-          <module>game-of-life</module>
+          <module>selenium</module
+		  
 	</modules>
 </project>
