@@ -30,7 +30,7 @@
      	<sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
         <sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
   </properties>
-<target> 
+
     <scm>
         <connection>scm:git:https://github.com/rameshalavala/Maven-Java-Project</connection>
         <developerConnection>scm:git:https://github.com/rameshalavala/Maven-Java-Project</developerConnection>
@@ -126,6 +126,6 @@
             </build>
         </profile>
   </profiles>
-</target> 
+
 
 </project>
