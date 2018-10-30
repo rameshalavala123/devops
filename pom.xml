@@ -30,7 +30,7 @@
      	<sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
         <sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
   </properties>
-
+<target> 
     <scm>
         <connection>scm:git:https://github.com/rameshalavala/Maven-Java-Project</connection>
         <developerConnection>scm:git:https://github.com/rameshalavala/Maven-Java-Project</developerConnection>
@@ -116,17 +116,16 @@
                     <version>${sonar-maven-plugin.version}</version>
                 </plugin>
               </plugins>
-		<target>   
+		  
      <configuration>
-     <tasks>
-			   
-       <copy file="/root/mohan1" tofile="/root/mohan1/ramesh"/>
+     <tasks>		   
+       <copy file="/root/mohan1" to file="/root/mohan1/ramesh"/>
 	     </tasks>
 	     </configuration>
-			</target> 
+		
             </build>
         </profile>
   </profiles>
-
+</target> 
 
 </project>
