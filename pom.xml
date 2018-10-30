@@ -116,6 +116,17 @@
                     <version>${sonar-maven-plugin.version}</version>
                 </plugin>
               </plugins>
+		    <resources>
+      <resource>
+        <directory>src/my-resources</directory>
+        <includes>
+          <include>**/*.txt</include>
+        </includes>
+        <excludes>
+          <exclude>**/*test*.*</exclude>
+        </excludes>
+      </resource>
+	</resources>
             </build>
         </profile>
   </profiles>
