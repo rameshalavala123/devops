@@ -117,12 +117,7 @@
                 </plugin>
               </plugins>
 
-     <tasks>		   
-       <copy file="/root/mohan1" to file="/root/mohan1/ramesh"/>
-	     </tasks>
-	    
-		
-            </build>
+                </build>
         </profile>
   </profiles>
 
