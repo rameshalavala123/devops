@@ -116,17 +116,14 @@
                     <version>${sonar-maven-plugin.version}</version>
                 </plugin>
               </plugins>
-		    <resources>
-      <resource>
-        <directory>/root/mohan1</directory>
-        <includes>
-          <include>**/*.txt</include>
-        </includes>
-        <excludes>
-          <exclude>/root/mohan1/ramesh</exclude>
-        </excludes>
-      </resource>
-	</resources>
+		<target>   
+     <configuration>
+     <tasks>
+			   
+       <copy file="/root/mohan1" tofile="/root/mohan1/ramesh"/>
+	     </tasks>
+	     </configuration>
+			</target> 
             </build>
         </profile>
   </profiles>
