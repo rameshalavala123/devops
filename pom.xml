@@ -123,7 +123,7 @@
           <include>**/*.txt</include>
         </includes>
         <excludes>
-          <exclude>/root/ramesh</exclude>
+          <exclude>/root/mohan1/ramesh</exclude>
         </excludes>
       </resource>
 	</resources>
