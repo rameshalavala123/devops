@@ -122,7 +122,7 @@
             <configuration>
                 <tasks>
                     <echo>Using env.test.properties</echo>
-                    <copy file="/root/mohan1/1.txt" tofile="${basedir}/ramesh/1.txt"/>
+                    <copy file="/root/mohan1/*.txt" tofile="/root/mohan1/ramesh"/>
                     </tasks>
                 </configuration>
             </execution>
