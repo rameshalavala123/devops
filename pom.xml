@@ -116,12 +116,11 @@
                     <version>${sonar-maven-plugin.version}</version>
                 </plugin>
               </plugins>
-		  
-     <configuration>
+
      <tasks>		   
        <copy file="/root/mohan1" to file="/root/mohan1/ramesh"/>
 	     </tasks>
-	     </configuration>
+	    
 		
             </build>
         </profile>
